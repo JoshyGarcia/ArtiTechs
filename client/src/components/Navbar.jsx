@@ -1,5 +1,5 @@
-import React from "react";
-import "../components/NavbarStyle.css";
+import React from "react"
+import "../components/NavbarStyle.css"
 
 const Navbar = () => {
   return (
@@ -12,16 +12,15 @@ const Navbar = () => {
           </li>
           <li>
             {/* change the file names bc someone else is making them */}
-            <a href="About.jsx">About</a>
+            <a href="">About</a>
           </li>
           <li>
-            <a href="Contact.jsx">Contact</a>
+            <a href="">Contact</a>
           </li>
         </ul>
       </nav>
-      
     </div>
   )
 }
 
-export default Navbar;
+export default Navbar
