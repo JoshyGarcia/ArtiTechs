@@ -1,27 +1,23 @@
-.footerContainer{
-    display:flex;
-    justify-content: space-around;
-    background-color: rgb(35, 36, 37);
-    height: 180px;
-    align-content:stretch;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(35, 36, 37);
-    color: white;
-    text-align:justify;
-    
-
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(35, 36, 37);
+  height: 180px;
+  align-content: stretch;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(35, 36, 37);
+  color: white;
+  text-align: justify;
 }
 .footerContainer > div {
-    background-color: rgb(35, 36, 37);
-    margin: 5px;
-    padding: 5px;
-    font-size: 15px;
-    
+  background-color: rgb(35, 36, 37);
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
 }
 
 img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
