@@ -1,11 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
 
-    // Path to the tremor module
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@tremor/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
