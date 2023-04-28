@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+#navbar {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #3172c2;
+    overflow: hidden;
+    padding: 1em; 
+
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+li a:hover {
+    background-color: rgb(47, 83, 116);
+}
