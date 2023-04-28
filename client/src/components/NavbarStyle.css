@@ -1,15 +1,24 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
     display: flex;
     justify-content: center;
     align-items: center;
     /* height: 100vh; */
-}
+/*} */
 
 #navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
-    float: left;
+    /* float: left; */
     padding: 20px;
     position: absolute;
+    left: 0;
     top: 0;
 }
 

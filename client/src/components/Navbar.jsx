@@ -3,12 +3,12 @@ import "../components/NavbarStyle.css";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav id="navbar">
+    <div id="navbar">
+      <nav>
         <ul>
           <li>
             {/* this will redirect to the main page */}
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             {/* change the file names bc someone else is making them */}
