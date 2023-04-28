@@ -15,6 +15,7 @@ body {
 
 ul {
     list-style-type: none;
+    /* feel free to change the background color */
     background-color: #3172c2;
     overflow: hidden;
     padding: 1em; 
