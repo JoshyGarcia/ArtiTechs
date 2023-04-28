@@ -20,11 +20,10 @@ const Events = () => {
   }, [events])
   return (
     <>
-      <h1 className="text-3xl text-center">Events</h1>
-      <div className="flex flex-wrap justify-center">
-        <img src="/gamingTournament.png" className="w-1/2 aspect-auto" />
-        <hr className="my-4" />
-        <p className=" w-1/3 self-center">
+      <h1 className="text-3xl text-center mt-6 mb-6">Events</h1>
+      <div className="flex flex-wrap justify-center ">
+        <img src="/gamingTournament.png" className="w-1/3 aspect-auto h-1/3" />
+        <p className=" w-1/3 self-center m-6">
           Discover the exciting lineup of events happening in the vibrant city
           of NYC! From music concerts and art exhibitions to sports matches and
           cultural festivals, our Events section keeps you informed about the
@@ -33,14 +32,15 @@ const Events = () => {
           experiences that NYC has to offer.
         </p>
       </div>
-      <hr className="my-4" />
-      <h2 className="text-2xl text-center">Upcoming Events</h2>
-      <hr className="my-4" />
+      <h2 className="text-2xl text-center mt-6 mb-6">Upcoming Events</h2>
       <p className="text-center w-1/2 self-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        voluptatum, quibusdam, quia, quae voluptates voluptatem quod dolorum
-        voluptas quos quas natus. Quisquam voluptatum, quibusdam, quia, quae
-        voluptates voluptatem quod dolorum voluptas quos quas natus.
+        Stay ahead of the curve with our Upcoming Events section! We curate a
+        comprehensive list of upcoming events in NYC, keeping you in the loop
+        about what's coming next. Be the first to know about upcoming concerts,
+        theatrical performances, film screenings, conferences, and more. With
+        our constantly updated calendar, you can plan your schedule in advance
+        and ensure you never miss a remarkable event in the city that never
+        sleeps.
       </p>
       <div className="flex flex-wrap justify-center">{eventsElements}</div>
     </>

@@ -1,7 +1,7 @@
 import { Card, Badge, Text, Title, Grid, Col } from "@tremor/react"
 
 const EventCard = (props) => {
-  const { name, location, event_time, age_requirement, prize, game_style } =
+  const { name, location, event_time, age_requirement, prize, platform } =
     props.event
 
   const eventDate = new Date(event_time).toLocaleDateString()
@@ -14,14 +14,22 @@ const EventCard = (props) => {
       </Title>
       <Grid cols="2" gap="2">
         <Col>
-          <Badge className="mr-2 mt-2">{location}</Badge>
+          <Badge className="mr-2 mt-2" color="yellow">
+            {location}
+          </Badge>
           <Badge className="mr-2 mt-2">{eventDate}</Badge>
           <Badge className="mr-2 mt-2">{eventTime}</Badge>
-          <Badge className="mr-2 mt-2">{age_requirement}+</Badge>
+          <Badge className="mr-2 mt-2" color="red">
+            {age_requirement}
+          </Badge>
         </Col>
         <Col>
-          <Badge className="mr-2 mt-2">{prize}</Badge>
-          <Badge className="mr-2 mt-2">{game_style}</Badge>
+          <Badge className="mr-2 mt-2" color="green">
+            {prize}
+          </Badge>
+          <Badge className="mr-2 mt-2" color="gray">
+            {platform}
+          </Badge>
         </Col>
       </Grid>
     </Card>
