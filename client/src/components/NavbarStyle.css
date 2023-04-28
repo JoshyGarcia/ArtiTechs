@@ -3,20 +3,21 @@
     padding: 0;
 }
 
-/*body {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     /* height: 100vh; */
-/*} */
+} 
 
 #navbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     /* float: left; */
-    padding: 20px;
+    /* padding: 20px; */
     position: absolute;
     left: 0;
     top: 0;
@@ -25,10 +26,9 @@
 ul {
     list-style-type: none;
     /* feel free to change the background color */
-    background-color: #3172c2;
+    background-color: black;
     overflow: hidden;
     padding: 1em; 
-
 }
 
 li {
@@ -39,7 +39,8 @@ li a {
     text-decoration: none;
     color: white;
     font-size: 1.3em;
-    padding: 1em;
+    /* this stretched out the nav bar */
+    padding: 10em;
 }
 
 li a:hover {
